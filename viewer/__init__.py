@@ -25,4 +25,4 @@ def list_logs(arn):
     return Response(dumps({'logs': cursor}), mimetype='application/json')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
